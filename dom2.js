@@ -26,6 +26,7 @@ yellow.addEventListener('click', () => {
 
 purple.addEventListener('click', () => {
     h1.innerHTML = 'This is a Purple BackGround!!!';
+    h1.setAttribute('style', 'color: white;');
     body.setAttribute('style', 'background: purple;')
 });
 defualt.addEventListener('click', () => {
